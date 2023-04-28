@@ -6,19 +6,7 @@
 
 Idea Co. SQL: Employee Tracker is fantasy employee management system that allows non-developers to easily view and interact with information stored in an SQL database. These interfaces are called content management systems (CMS). Objective is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL. Once done, create a walkthrough video that demonstrates the interfaces functionality and acceptance criteria + BONUS acceptance criteria.
 
-```md
-## Table of Contents:
-- [Overview](#Overview)
-- [The Challenge](#The-Challenge)
-- [Usage Information](#Usage-Information)
-- [Installation Process](#Installation-Process)
-- [Built With](#Built-With)
-- [What I Learned](#What-I-Learned)
-- [Continued Development](#Continued-Development)
-- [License](#License)
-- [Author](#Author)
-- [Acknowledgments](#Acknowledgments)
-```
+
 # Overview
 
 ## The Challenge:
@@ -54,15 +42,8 @@ THEN I am prompted to select an employee to update and their new role and this i
 ```
 ## GIF.
 ### Figure 1. GIF Command line interface
-![](./assets/images/Demo.GIF)
 
 ## Usage Instructions
-1. Open the content management systems (CMS) named "Thomas & Friends SQL Employee Tracker".
-2. Open 'Intergrated Terminal' on 'server.js' and enter 'node server.js'
-3. Use the 'UP' and 'DOWN' arrow keys to navigate the command line. 
-4. Click 'enter' or 'return' on your respective choice.
-5. Follow all commad line prompts as directed until desired choice has been met.
-6. Additionally, for more in-depth instructions [Click Here to Watch.](https://www.youtube.com/watch?v=m9CQxR0AfiQ)
 
 ## Repository Link:
 
