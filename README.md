@@ -43,18 +43,19 @@ THEN I am prompted to select an employee to update and their new role and this i
 ![Alt text](assets/images/12-sql-homework-demo-01.png)
 
 ## Usage Instructions
--- open terminal and run the following commands:
+```md
+open terminal and run the following commands:
 
--- mysql -u root -p
--- Enter your password:
--- mysql> SOURCE db/schema.sql
--- mysql> SOURCE db/seeds.sql
--- mysql> SOURCE db/querry.sql
--- mysql> exit
+mysql -u root -p
+Enter your password:
+mysql> SOURCE db/schema.sql
+mysql> SOURCE db/seeds.sql
+mysql> SOURCE db/querry.sql
+mysql> exit
 
--- npm install mysql2
--- npm install cfonts
--- npm start
+npm install mysql2
+npm install cfonts
+npm start
 ```
 
 ## Repository Link:
