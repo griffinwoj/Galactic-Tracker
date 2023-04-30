@@ -58,10 +58,17 @@ THEN I am prompted to select an employee to update and their new role and this i
 ```
 
 ## Repository Link:
-x
+
+
+## Demonstration of functionality:
+https://watch.screencastify.com/v/pnr0h9GNB19KLR69IyyN
 
 ## Credits
-All code sourced from edX, Node.js, Inquirer, and MySQL documentation. Other credits can be given to members of my current cohort for assisting me with debugging and troubleshooting.
+All code sourced from edX, Node.js, Inquirer, Cfonts, and MySQL documentation. Other credits can be given to members of my current cohort for assisting me with debugging and troubleshooting.
 
+## Aditonial fair use information:
+Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.
+Fair use is a use permitted by copyright statute that might otherwise be infringing.
+Non-profit, educational or personal use tips the balance in favor of fair use.
 
 
