@@ -14,7 +14,7 @@ const connection = mysql.createConnection({
 // connect to the database
 connection.connect((err) => {
     if (err) throw err;
-    console.log("Connected to the database!");
+    console.log("🌌💫Connected to the Galactic Database!💫🌌 ");
     // start the application
     start();
 });

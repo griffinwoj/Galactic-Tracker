@@ -1,10 +1,10 @@
-# Star Wars SQL Employee Tracker 
+# Galactic SQL Employee Tracker 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description:
 
-The fictional employee management system Star Wars SQL: Employee Tracker makes it simple for non-developers to view and interact with data kept in a SQL database. CMS stands for content management systems, which are these interfaces. The goal is to create a command-line application from scratch using Node.js, Inquirer, and MySQL to manage a company's employee database. 
+The fictional content management system, Galactic SQL: Employee Tracker, makes it simple for non-developers to view and interact with data kept in a SQL database. CMS stands for content management systems, which are these interfaces. The goal is to create a command-line application from scratch using Node.js, Inquirer, and MySQL to manage a company's employee database. 
 
 
 <--- Make a walkthrough video that explains the capabilities of the interface and the acceptance criteria + BONUS acceptance criteria once you're finished. ------>
@@ -58,11 +58,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 ```
 
 ## Repository Link:
-
-
-## Installation Process
-
-
+x
 
 ## Credits
 All code sourced from edX, Node.js, Inquirer, and MySQL documentation. Other credits can be given to members of my current cohort for assisting me with debugging and troubleshooting.
