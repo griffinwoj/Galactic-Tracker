@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "",
+    password: "password",
     database: "employeeTracker_db",
 });
 
@@ -20,10 +20,10 @@ connection.connect((err) => {
 });
 
 // Function to start the application of CFONT 
-cfonts.say('Idea Co. \nSQL Employee Tracker', {
+cfonts.say('Star Wars \nSQL Employee Tracker', {
 	font: 'block',              // define the font face
 	align: 'left',              // define text alignment
-	colors: ['blue'],         // define all colors
+	colors: ['yellow'],         // define all colors
 	background: 'transparent',  // define the background color, you can also use `backgroundColor` here as key
 	letterSpacing: 1,           // define letter spacing
 	lineHeight: 1,              // define the line height
@@ -35,7 +35,7 @@ cfonts.say('Idea Co. \nSQL Employee Tracker', {
 	env: 'node'                 // define the environment cfonts is being executed in
 });
 
-// Function to Start Idea Co. SQL Employee Tracker Application
+// Function to Start Star Wars SQL Employee Tracker Application
 function start() {
     inquirer
         .prompt({
@@ -425,7 +425,7 @@ function updateEmployeeRole() {
     });
 }
 
-// Remember: iPad forced push to origin main deleted local stash that fixed bonus question for salary summary
+
 // Function to View Employee By Manager
 function viewEmployeesByManager() {
     const query = `

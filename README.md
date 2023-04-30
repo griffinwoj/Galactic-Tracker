@@ -1,19 +1,18 @@
-# Idea Co. Employee Tracker 
+# Star Wars SQL Employee Tracker 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description:
 
-Idea Co. SQL: Employee Tracker is fantasy employee management system that allows non-developers to easily view and interact with information stored in an SQL database. These interfaces are called content management systems (CMS). Objective is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL. Once done, create a walkthrough video that demonstrates the interfaces functionality and acceptance criteria + BONUS acceptance criteria.
+The fictional employee management system Star Wars SQL: Employee Tracker makes it simple for non-developers to view and interact with data kept in a SQL database. CMS stands for content management systems, which are these interfaces. The goal is to create a command-line application from scratch using Node.js, Inquirer, and MySQL to manage a company's employee database. 
 
 
-# Overview
+<--- Make a walkthrough video that explains the capabilities of the interface and the acceptance criteria + BONUS acceptance criteria once you're finished. ------>
 
-## The Challenge:
+## Overview and Project Goals
 
 Create an interfaces that allows non-developers to easily view and interact with information stored in an SQL Employee Tracker database. These interfaces are called content management systems (CMS). Objective is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL. Once done, create a walkthrough video that demonstrates the interfaces functionality and acceptance criteria + BONUS acceptance criteria.
 
-## User Story
 ```md
 AS A business owner
 I WANT to be able to view and manage the departments, roles, and employees in my company
@@ -40,22 +39,33 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
-## GIF.
-### Figure 1. GIF Command line interface
+### Source functionality 
+![Alt text](assets/images/12-sql-homework-demo-01.png)
 
 ## Usage Instructions
+-- open terminal and run the following commands:
+
+-- mysql -u root -p
+-- Enter your password:
+-- mysql> SOURCE db/schema.sql
+-- mysql> SOURCE db/seeds.sql
+-- mysql> SOURCE db/querry.sql
+-- mysql> exit
+
+-- npm install mysql2
+-- npm install cfonts
+-- npm start
+```
 
 ## Repository Link:
-
-
-
 
 
 ## Installation Process
 
 
 
-
+## Credits
+All code sourced from edX, Node.js, Inquirer, and MySQL documentation. Other credits can be given to members of my current cohort for assisting me with debugging and troubleshooting.
 
 
 

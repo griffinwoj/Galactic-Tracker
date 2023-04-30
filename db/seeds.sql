@@ -31,8 +31,8 @@ INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES
 ('Darth', 'Vader', 3, 3),
 ('Princess', 'Leia', 4, 4),
 ('Obi-Wan', 'Kenobi', 5, 5),
-('Chewbacca', '', 6, 6),
-('Yoda', '', 7, 7),
+('Chewbacca', 'the dog man', 6, 6),
+('Yoda', 'the lil guy', 7, 7),
 ('Boba', 'Fett', 8, 8),
 ('Qui-Gon', 'Jinn', 9, 9),
 ('Mace', 'Windu', 10, 10);
