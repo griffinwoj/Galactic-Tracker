@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const mysql = require("mysql2");
 const cfonts = require('cfonts');
 
-// create a MySQL connection
+// create a MySQL connection and connect to the database
 const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
     database: "employeeTracker_db",
 });
 
-// connect to the database
+// this connects to the database
 connection.connect((err) => {
     if (err) throw err;
     console.log("🌌💫Connected to the Galactic Database!💫🌌 ");
@@ -35,7 +35,8 @@ cfonts.say('Galactic \nSQL Tracker', {
 	env: 'node'                 // define the environment cfonts is being executed in
 });
 
-// Function to Start Star Wars SQL Tracker Application
+// Function to Start Star Wars SQL Tracker Application!
+//  this also prompts the user to select an action
 function start() {
     inquirer
         .prompt({
@@ -105,6 +106,7 @@ function start() {
 }
 
 // function to view all departments
+//and shoes the table of departments
 function viewAllDepartments() {
     const query = "SELECT * FROM departments";
     connection.query(query, (err, res) => {
@@ -116,6 +118,7 @@ function viewAllDepartments() {
 }
 
 // function to view all roles
+// this also shows the table of roles to select from
 function viewAllRoles() {
     const query = "SELECT roles.title, roles.id, departments.department_name, roles.salary from roles join departments on roles.department_id = departments.id";
     connection.query(query, (err, res) => {
@@ -127,6 +130,7 @@ function viewAllRoles() {
 }
 
 // function to view all employees
+//this also shows the table of employees to select from
 function viewAllEmployees() {
     const query = `
     SELECT e.id, e.first_name, e.last_name, r.title, d.department_name, r.salary, CONCAT(m.first_name, ' ', m.last_name) AS manager_name
@@ -215,6 +219,7 @@ function addRole() {
 }
 
 // Function to add an employee
+
 function addEmployee() {
     // Retrieve list of roles from the database
     connection.query("SELECT id, title FROM roles", (error, results) => {
