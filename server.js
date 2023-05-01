@@ -21,18 +21,18 @@ connection.connect((err) => {
 
 // Function to start the application of CFONT 
 cfonts.say('Galactic \nSQL Tracker', {
-	font: 'block',              // define the font face
-	align: 'left',              // define text alignment
-	colors: ['yellow'],         // define all colors
-	background: 'transparent',  // define the background color, you can also use `backgroundColor` here as key
-	letterSpacing: 1,           // define letter spacing
-	lineHeight: 1,              // define the line height
-	space: true,                // define if the output text should have empty lines on top and on the bottom
-	maxLength: '0',             // define how many character can be on one line
-	gradient: false,            // define your two gradient colors
-	independentGradient: false, // define if you want to recalculate the gradient for each new line
-	transitionGradient: false,  // define if this is a transition between colors directly
-	env: 'node'                 // define the environment cfonts is being executed in
+    font: 'block',              // define the font face
+    align: 'left',              // define text alignment
+    colors: ['yellow'],         // define all colors
+    background: 'transparent',  // define the background color, you can also use `backgroundColor` here as key
+    letterSpacing: 1,           // define letter spacing
+    lineHeight: 1,              // define the line height
+    space: true,                // define if the output text should have empty lines on top and on the bottom
+    maxLength: '0',             // define how many character can be on one line
+    gradient: false,            // define your two gradient colors
+    independentGradient: false, // define if you want to recalculate the gradient for each new line
+    transitionGradient: false,  // define if this is a transition between colors directly
+    env: 'node'                 // define the environment cfonts is being executed in
 });
 
 // Function to Start Star Wars SQL Tracker Application!
@@ -303,7 +303,7 @@ function addEmployee() {
         );
     });
 }
-// Function to add a Manager
+// add a Manager, should be changed to add a leader as empire or rebels
 function addManager() {
     const queryDepartments = "SELECT * FROM departments";
     const queryEmployees = "SELECT * FROM employee";
@@ -498,7 +498,7 @@ function viewEmployeesByDepartment() {
 // This function will delete departments, roles, and employees
 function deleteDepartmentsRolesEmployees() {
     inquirer
-    //this will prompt the user to select what they want to delete
+        //this will prompt the user to select what they want to delete
         .prompt({
             type: "list",
             name: "data",
@@ -553,7 +553,7 @@ function deleteEmployee() {
                     if (err) throw err;
                     console.log(
                         `Deleted employee with ID ${answer.id} from the database!`
-                        
+
                     );
                     // restart the application
                     start();
