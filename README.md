@@ -9,6 +9,7 @@ The fictional content management system, Galactic SQL: Employee Tracker, makes i
 
 ## Overview and Project Goals
 
+
 Create an interface that allows non-developers to easily view and interact with information stored in an SQL Employee Tracker database. These interfaces are called content management systems (CMS). Objective is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL. Once done, create a walkthrough video that demonstrates the interfaces functionality and acceptance criteria + BONUS acceptance criteria.
 
 ```md
